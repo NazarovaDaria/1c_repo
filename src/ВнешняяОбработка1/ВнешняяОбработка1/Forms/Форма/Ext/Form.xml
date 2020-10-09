@@ -9,6 +9,13 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<ChildItems>
+		<Button name="Команда2" id="3">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Команда2</CommandName>
+			<ExtendedTooltip name="Команда2РасширеннаяПодсказка" id="4"/>
+		</Button>
+	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
@@ -20,6 +27,9 @@
 	<Commands>
 		<Command name="Команда1" id="1">
 			<Action>Команда1</Action>
+		</Command>
+		<Command name="Команда2" id="2">
+			<Action>Команда2</Action>
 		</Command>
 	</Commands>
 </Form>
